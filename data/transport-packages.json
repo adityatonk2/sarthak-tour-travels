@@ -1,0 +1,45 @@
+[
+    {
+        "id": "dzire-delhi",
+        "cabType": "DZIRE",
+        "destination": "DELHI DROP OR DELHI PICK",
+        "amount": "₹4,500",
+        "description": "Comfortable and economical ride to/from Delhi. Perfect for airport transfers and city travel."
+    },
+    {
+        "id": "innova-delhi",
+        "cabType": "INNOVA",
+        "destination": "DELHI DROP OR DELHI PICK",
+        "amount": "₹7,000",
+        "description": "Spacious and premium vehicle for Delhi transfers. Ideal for families and groups."
+    },
+    {
+        "id": "ertiga-delhi",
+        "cabType": "ERTIGA",
+        "destination": "DELHI DROP OR DELHI PICK",
+        "amount": "₹6,200",
+        "description": "Comfortable 7-seater option for Delhi transfers. Great value for larger groups."
+    },
+    {
+        "id": "dzire-chandigarh",
+        "cabType": "DZIRE",
+        "destination": "CHANDIGARH DROP OR PICK",
+        "amount": "₹4,500",
+        "description": "Reliable service to/from Chandigarh. Clean and well-maintained vehicles."
+    },
+    {
+        "id": "dzire-jolly-grant",
+        "cabType": "DZIRE",
+        "destination": "JOLLY GRANT PICK OR DROP",
+        "amount": "₹1,200",
+        "description": "Quick and affordable airport transfer to Jolly Grant Airport. Perfect for flight arrivals and departures."
+    },
+    {
+        "id": "innova-jolly-grant",
+        "cabType": "INNOVA",
+        "destination": "JOLLY GRANT PICK OR DROP",
+        "amount": "₹2,200",
+        "description": "Premium airport transfer service to Jolly Grant Airport. Extra comfort and space for your journey."
+    }
+]
+

@@ -1,0 +1,109 @@
+[
+    {
+        "slug": "char-dham-yatra",
+        "title": "Divine Char Dham Yatra",
+        "price": "₹28,500",
+        "duration": "10 Days / 9 Nights",
+        "image": "/images/uploads/char-dham.jpeg",
+        "description": "A spiritual journey to Yamunotri, Gangotri, Kedarnath, and Badrinath. Complete package with stay and transport.",
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Haridwar to Barkot",
+                "details": "Pick up from Haridwar/Dehradun. Drive to Barkot via Mussoorie."
+            },
+            {
+                "day": 2,
+                "title": "Yamunotri Trek",
+                "details": "Early morning drive to Jankichatti and trek to Yamunotri."
+            },
+            {
+                "day": 10,
+                "title": "Drop at Haridwar",
+                "details": "Morning tea and drive back to Haridwar for drop."
+            }
+        ],
+        "inclusions": [
+            "Transportation",
+            "Hotel Stay",
+            "Breakfast & Dinner",
+            "Toll Tax"
+        ],
+        "exclusions": [
+            "Helicopter Tickets",
+            "Lunch",
+            "Personal Expenses"
+        ],
+        "featured": true
+    },
+    {
+        "slug": "mussoorie-weekend",
+        "title": "Mussoorie Queen of Hills",
+        "price": "₹8,500",
+        "duration": "3 Days / 2 Nights",
+        "image": "/images/uploads/mussorie-queen-of-hills.jpg",
+        "description": "Escape to the Queen of Hills. Visit Kempty Falls, Gun Hill, and enjoy a stroll on Mall Road.",
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Mussoorie",
+                "details": "Check in to hotel and evening walk on Mall Road."
+            },
+            {
+                "day": 2,
+                "title": "Sightseeing",
+                "details": "Visit Kempty Falls, Company Garden, and George Everest."
+            },
+            {
+                "day": 3,
+                "title": "Departure",
+                "details": "Morning breakfast and drive back."
+            }
+        ],
+        "inclusions": [
+            "Cab for Sightseeing",
+            "Hotel Stay",
+            "Breakfast"
+        ],
+        "exclusions": [
+            "Entry Fees",
+            "Lunch"
+        ],
+        "featured": true
+    },
+    {
+        "slug": "nainital-ranikhet",
+        "title": "Nainital Lake Paradise",
+        "price": "₹14,000",
+        "duration": "5 Days / 4 Nights",
+        "image": "/images/uploads/nanital-lake-paradise.jpeg",
+        "description": "Enjoy the lakes of Nainital and the serene views of Ranikhet and Kausani.",
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Drive to Nainital",
+                "details": "Arrival and boating in Naini Lake."
+            },
+            {
+                "day": 2,
+                "title": "Nainital Sightseeing",
+                "details": "Visit Tiffin Top, Zoo, and Hanuman Garhi."
+            },
+            {
+                "day": 3,
+                "title": "Ranikhet Excursion",
+                "details": "Drive to Ranikhet, visit Golf Course and Temples."
+            }
+        ],
+        "inclusions": [
+            "Transport",
+            "Accommodation",
+            "Meals"
+        ],
+        "exclusions": [
+            "Boating Charges",
+            "Porter Fees"
+        ],
+        "featured": true
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "taxi-services",
+        "title": "Luxury Taxi Fleet",
+        "description": "Premium Innova, Crysta & Tempo Travellers for outstation trips",
+        "icon": "Car",
+        "slug": "taxi-services",
+        "image": "/images/uploads/taxi-front.jpg"
+    },
+    {
+        "id": "tour-packages",
+        "title": "Himalayan Tour Packages",
+        "description": "Expertly crafted tours for Char Dham and Hill Stations",
+        "icon": "Map",
+        "slug": "tour-packages",
+        "image": "/images/uploads/glimpse-4.jpeg"
+    },
+    {
+        "id": "hotel-booking",
+        "title": "Premium Hotel Stays",
+        "description": "Verified luxury and budget hotels with best rates",
+        "icon": "Hotel",
+        "slug": "hotel-booking",
+        "image": "/images/uploads/glimpse-5.jpeg"
+    },
+    {
+        "id": "vintage-car-rentals",
+        "title": "Vintage Wedding Cars",
+        "description": "Classic cars for weddings, pre-wedding shoots & VIP entry",
+        "icon": "Gem",
+        "slug": "vintage-car-rentals",
+        "image": "/images/uploads/vintage-car.jpeg"
+    }
+]

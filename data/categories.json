@@ -1,0 +1,62 @@
+[
+    {
+        "id": "chardham",
+        "title": "CHAR DHAM YATRA",
+        "image": "/images/uploads/char-dham.jpeg",
+        "link": "/packages/char-dham-yatra"
+    },
+    {
+        "id": "rishikesh",
+        "title": "RISHIKESH ADVENTURE",
+        "image": "/images/uploads/rishikesh-adventure.jpeg",
+        "link": "/services#adventure"
+    },
+    {
+        "id": "jim-corbett",
+        "title": "JIM CORBETT SAFARI",
+        "image": "/images/uploads/glimpse-1.jpeg",
+        "link": "/services#wildlife"
+    },
+    {
+        "id": "auli",
+        "title": "AULI SKI RESORT",
+        "image": "/images/uploads/auli-sky-resort.jpeg",
+        "link": "/packages/mussoorie-weekend"
+    },
+    {
+        "id": "nainital",
+        "title": "NAINITAL LAKE CITY",
+        "image": "/images/uploads/nanital-lake.jpeg",
+        "link": "/packages/nainital-ranikhet"
+    },
+    {
+        "id": "mussoorie",
+        "title": "MUSSOORIE HILLS",
+        "image": "/images/uploads/mussorie-queen-of-hills.jpg",
+        "link": "/packages/mussoorie-weekend"
+    },
+    {
+        "id": "valley-flowers",
+        "title": "VALLEY OF FLOWERS",
+        "image": "/images/uploads/valley-of-flowers.jpeg",
+        "link": "/services#trekking"
+    },
+    {
+        "id": "haridwar",
+        "title": "HARIDWAR AARTI",
+        "image": "/images/uploads/haridwar-arti.jpeg",
+        "link": "/services#pilgrimage"
+    },
+    {
+        "id": "lansdowne",
+        "title": "LANSDOWNE TRIP",
+        "image": "/images/uploads/glimpse-2.jpeg",
+        "link": "/services#hill-station"
+    },
+    {
+        "id": "camping",
+        "title": "RIVERSIDE CAMPING",
+        "image": "/images/uploads/glimpse-3.jpeg",
+        "link": "/services#camping"
+    }
+]

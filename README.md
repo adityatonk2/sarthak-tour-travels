@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sarthak Travels & Holidays
 
-## Getting Started
+A modern, high-performance travel agency website built with Next.js 14+, TypeScript, and Tailwind CSS.
+Designed for speed, SEO, and WhatsApp conversions.
 
-First, run the development server:
+## 🚀 Getting Started
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
+- Node.js 18.17 or later
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/sarthak-travels.git
+    cd sarthak-travels
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2.  Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-## Learn More
+3.  Run the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1. Company Information & Contact Details
+To update phone numbers, emails, address, or social links:
+- Edit `data/company.json`
+- The WhatsApp button and contact pages automatically pull from this file.
+- **Current Numbers**: +91 93894 77123 (Main)
 
-## Deploy on Vercel
+### 2. Branding (Colors & Fonts)
+- **Colors**: Edit `app/globals.css`.
+  - `--color-primary`: Main brand color (Deep Blue).
+  - `--color-secondary`: Accent color (Orange).
+- **Fonts**: Configured in `app/layout.tsx`. Implementation uses `Inter` from Google Fonts.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. Content Management
+Manage website content via JSON files in the `data/` folder:
+- `data/services.json`: Add/Edit services displayed on Home and Services page.
+- `data/packages.json`: Manage tour packages (slug, price, itinerary).
+- `data/testimonials.json`: Update customer reviews.
+- `data/company.json`: Global company strings and USPs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 4. Images
+- Place images in `public/images/`.
+- Update references in `data/packages.json` or components.
+- Currently using placeholders. **Action Required**: Replace `/images/hero-bg-placeholder.jpg` with a real high-quality hero image.
+
+## 🚢 Deployment
+
+### Deploy on Vercel (Recommended)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new).
+
+1.  Push code to GitHub.
+2.  Import project in Vercel.
+3.  Deploy.
+
+The build command is `next build`.
+Output directory is `.next`.
+
+## 📁 Project Structure
+
+- `app/`: Next.js App Router pages and layouts.
+- `components/`: React components.
+  - `ui/`: Reusable primitives (Button, Card).
+  - `sections/`: Page sections (Hero, Testimonials).
+  - `layout/`: Global layout (Header, Footer).
+- `data/`: JSON content.
+- `types/`: TypeScript definitions.
+- `lib/`: Utilities.
+
+## ⚡ Performance & SEO
+
+- **Static Site Generation (SSG)**: All pages including package details are pre-rendered at build time for maximum speed.
+- **Microdata**: Basic meta tags configured in `app/layout.tsx` and individual pages.
+- **Sitemap**: Automatically generated at `sarthaktravels.com/sitemap.xml`.
+
+## 📞 Support
+
+For development support, contact [Your Name/Agency].

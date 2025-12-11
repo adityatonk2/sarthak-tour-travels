@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "src": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1000",
+        "alt": "Himalayan Peaks"
+    },
+    {
+        "id": 2,
+        "src": "https://images.unsplash.com/photo-1626284639961-002d25ef6d8e?q=80&w=1000",
+        "alt": "Kedarnath Temple"
+    },
+    {
+        "id": 3,
+        "src": "https://plus.unsplash.com/premium_photo-1697729603517-573e047466eb?q=80&w=1000",
+        "alt": "Mussoorie Road"
+    },
+    {
+        "id": 4,
+        "src": "https://images.unsplash.com/photo-1596021688661-39794cb15340?q=80&w=1000",
+        "alt": "Nainital Lake"
+    },
+    {
+        "id": 5,
+        "src": "https://images.unsplash.com/photo-1532938811802-536715f1da28?q=80&w=1000",
+        "alt": "Innova Crysta Taxi"
+    },
+    {
+        "id": 6,
+        "src": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1000",
+        "alt": "Vintage Car"
+    },
+    {
+        "id": 7,
+        "src": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1000",
+        "alt": "Switzerland of India - Chopta"
+    },
+    {
+        "id": 8,
+        "src": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1000",
+        "alt": "Rishikesh Rafting"
+    },
+    {
+        "id": 9,
+        "src": "https://images.unsplash.com/photo-1598322636254-884c59976bb0?q=80&w=1000",
+        "alt": "Auli Skiing"
+    }
+]
