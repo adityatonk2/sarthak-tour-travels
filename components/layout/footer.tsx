@@ -11,7 +11,7 @@ export function Footer() {
                     {/* Company Info */}
                     <div>
                         <Link href="/" className="block mb-4">
-                            <img src="/images/site-logo.png" alt={companyData.name} className="h-28 w-28 rounded-full object-cover" />
+                            <img src="/images/sarthak-logo.png" alt={companyData.name} className="h-24 w-auto object-contain" />
                         </Link>
                         {/* <h3 className="text-lg font-bold text-white mb-4">{companyData.name}</h3> - Optional: keep or remove since logo is there */}
                         <p className="text-sm text-slate-400 mb-4 pr-4">
@@ -22,7 +22,7 @@ export function Footer() {
                                 <Facebook className="h-5 w-5" />
                                 <span className="sr-only">Facebook</span>
                             </Link>
-                            <Link href={companyData.social.instagram} className="hover:text-primary transition-colors">
+            ChatGPT Image Jan 11, 2026, 10_40_36 AM.png                <Link href={companyData.social.instagram} className="hover:text-primary transition-colors">
                                 <Instagram className="h-5 w-5" />
                                 <span className="sr-only">Instagram</span>
                             </Link>

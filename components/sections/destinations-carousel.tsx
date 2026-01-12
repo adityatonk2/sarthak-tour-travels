@@ -40,7 +40,7 @@ export function DestinationsCarousel() {
     const handleNext = () => {
         setCurrentIndex((prev) => (prev + 1) % categories.length);
         setIsAutoPlaying(false);
-    };
+        };
 
     const handleTouchStart = (e: React.TouchEvent) => {
         touchStartX.current = e.touches[0].clientX;
@@ -97,7 +97,7 @@ export function DestinationsCarousel() {
                     <div className="flex justify-center mt-6">
                         <div className="w-20 h-1 bg-gradient-to-r from-transparent via-primary to-transparent rounded-full"></div>
                     </div>
-                </div>
+            </div>
 
                 {/* Carousel Container */}
                 <div className="relative">
@@ -182,8 +182,8 @@ export function DestinationsCarousel() {
                                                 <div className="relative h-full w-full rounded-2xl overflow-hidden shadow-xl group cursor-pointer transform transition-all duration-300 hover:shadow-2xl">
                                                     <div className="relative h-full w-full">
                                                         <Image
-                                                            src={item.image}
-                                                            alt={item.title}
+                                    src={item.image}
+                                    alt={item.title}
                                                             fill
                                                             className={`object-cover transition-transform duration-500 ${
                                                                 idx === 1
@@ -192,7 +192,7 @@ export function DestinationsCarousel() {
                                                             }`}
                                                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                                                             priority={idx === 1}
-                                                        />
+                                />
                                                         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent" />
                                                         <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6">
                                                             <h4

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Learn more about Sarthak Travels, our mission, vision, and team. Established travel experts serving Uttarakhand with reliable taxi services, tour packages, and vintage car rentals.",
   openGraph: {
     title: "About Us | Sarthak Travels & Holidays",
-    description: "Learn more about Sarthak Travels, our mission, vision, and team.",
+  description: "Learn more about Sarthak Travels, our mission, vision, and team.",
   },
 };
 
@@ -21,7 +21,7 @@ export default function AboutPage() {
 
         <div className="grid gap-12 lg:grid-cols-2 items-center mb-20">
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-primary">Explore Uttarakhand With Trusted Experts</h3>
+            <h3 className="text-2xl font-bold text-slate-900">Explore Uttarakhand With Trusted Experts</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">{companyData.description}</p>
             <p className="text-muted-foreground leading-relaxed">
               Established with a passion for tourism and hospitality, we have been serving travelers from across the

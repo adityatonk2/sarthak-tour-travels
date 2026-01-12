@@ -36,19 +36,19 @@ export function Header() {
             </div>
 
             <div className="container mx-auto px-4 md:px-6">
-                <div className="flex h-20 items-center justify-between">
+                <div className="flex h-24 md:h-28 items-center justify-between">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-2">
-                        <img src="/images/site-logo.png" alt={companyData.name} className="h-16 w-16 rounded-full object-cover" />
+                    <Link href="/" className="flex items-center gap-3">
+                        <img src="/images/sarthak-logo.png" alt={companyData.name} className="h-16 w-auto md:h-20 object-contain" />
                     </Link>
 
                     {/* Desktop Nav */}
-                    <nav className="hidden md:flex items-center gap-6">
+                    <nav className="hidden md:flex items-center gap-8">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className="text-sm font-medium transition-colors hover:text-primary"
+                                className="text-base font-medium transition-colors hover:text-primary"
                             >
                                 {link.label}
                             </Link>
@@ -57,7 +57,7 @@ export function Header() {
 
                     {/* CTA & Mobile Toggle */}
                     <div className="flex items-center gap-4">
-                        <Button className="hidden md:flex gap-2" asChild>
+                        <Button size="lg" className="hidden md:flex gap-2" asChild>
                             <Link href={`https://wa.me/${companyData.contact.phone}`} target="_blank">
                                 <Phone className="h-4 w-4" />
                                 Book Now
@@ -70,9 +70,9 @@ export function Header() {
                             aria-label="Toggle menu"
                         >
                             {isMenuOpen ? (
-                                <X className="h-6 w-6" />
+                                <X className="h-7 w-7" />
                             ) : (
-                                <Menu className="h-6 w-6" />
+                                <Menu className="h-7 w-7" />
                             )}
                         </button>
                     </div>
@@ -87,7 +87,7 @@ export function Header() {
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className="text-sm font-medium hover:text-primary py-2"
+                                className="text-base font-medium hover:text-primary py-2"
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 {link.label}
