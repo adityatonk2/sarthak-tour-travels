@@ -1,47 +1,62 @@
 [
     {
         "id": 1,
-        "src": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1000",
-        "alt": "Himalayan Peaks"
+        "src": "/images/uploads/001.jpg",
+        "alt": "Beautiful Uttarakhand Landscape"
     },
     {
         "id": 2,
-        "src": "https://images.unsplash.com/photo-1626284639961-002d25ef6d8e?q=80&w=1000",
-        "alt": "Kedarnath Temple"
+        "src": "/images/uploads/002.jpeg",
+        "alt": "Scenic Mountain Views"
     },
     {
         "id": 3,
-        "src": "https://plus.unsplash.com/premium_photo-1697729603517-573e047466eb?q=80&w=1000",
-        "alt": "Mussoorie Road"
+        "src": "/images/uploads/003.jpg",
+        "alt": "Himalayan Beauty"
     },
     {
         "id": 4,
-        "src": "https://images.unsplash.com/photo-1596021688661-39794cb15340?q=80&w=1000",
-        "alt": "Nainital Lake"
+        "src": "/images/uploads/004.jpg",
+        "alt": "Uttarakhand Nature"
     },
     {
         "id": 5,
-        "src": "https://images.unsplash.com/photo-1532938811802-536715f1da28?q=80&w=1000",
-        "alt": "Innova Crysta Taxi"
+        "src": "/images/uploads/005.jpg",
+        "alt": "Mountain Scenery"
     },
     {
         "id": 6,
-        "src": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1000",
-        "alt": "Vintage Car"
+        "src": "/images/uploads/006.jpeg",
+        "alt": "Picturesque Uttarakhand"
     },
     {
         "id": 7,
-        "src": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1000",
-        "alt": "Switzerland of India - Chopta"
+        "src": "/images/uploads/001.jpeg",
+        "alt": "Luxury Taxi Services"
     },
     {
         "id": 8,
-        "src": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1000",
-        "alt": "Rishikesh Rafting"
+        "src": "/images/uploads/002.jpeg",
+        "alt": "Himalayan Tour Packages"
     },
     {
         "id": 9,
-        "src": "https://images.unsplash.com/photo-1598322636254-884c59976bb0?q=80&w=1000",
-        "alt": "Auli Skiing"
+        "src": "/images/uploads/003.jpeg",
+        "alt": "Premium Hotel Stays"
+    },
+    {
+        "id": 10,
+        "src": "/images/uploads/004.jpeg",
+        "alt": "Vintage Car Rentals"
+    },
+    {
+        "id": 11,
+        "src": "/images/uploads/005.jpeg",
+        "alt": "Tour Experiences"
+    },
+    {
+        "id": 12,
+        "src": "/images/uploads/006.jpeg",
+        "alt": "Travel Destinations"
     }
 ]

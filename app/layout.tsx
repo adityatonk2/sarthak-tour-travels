@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description: "Book taxis, tour packages, hotels, and vintage cars across Uttarakhand. 24x7 support, verified hotels, safe & sanitized vehicles.",
     images: [
       {
-        url: "/images/uploads/hero-landing-image.png",
+        url: "/final-hero-page.jpg",
         width: 1200,
         height: 630,
         alt: "Sarthak Travels & Holidays",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sarthak Travels & Holidays",
     description: "Book taxis, tour packages, hotels, and vintage cars across Uttarakhand",
-    images: ["/images/uploads/hero-landing-image.png"],
+    images: ["/final-hero-page.jpg"],
   },
   robots: {
     index: true,
@@ -84,7 +84,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "TravelAgency",
     "name": companyData.name,
-    "image": `${siteUrl}/images/uploads/hero-landing-image.png`,
+    "image": `${siteUrl}/final-hero-page.jpg`,
     "description": companyData.description,
     "address": {
       "@type": "PostalAddress",

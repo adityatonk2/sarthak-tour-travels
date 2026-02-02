@@ -1,34 +1,117 @@
 [
-    {
-        "id": "taxi-services",
-        "title": "Luxury Taxi Fleet",
-        "description": "Premium Innova, Crysta & Tempo Travellers for outstation trips",
-        "icon": "Car",
-        "slug": "taxi-services",
-        "image": "/images/uploads/taxi-front.jpg"
-    },
-    {
-        "id": "tour-packages",
-        "title": "Himalayan Tour Packages",
-        "description": "Expertly crafted tours for Char Dham and Hill Stations",
-        "icon": "Map",
-        "slug": "tour-packages",
-        "image": "/images/uploads/glimpse-4.jpeg"
-    },
-    {
-        "id": "hotel-booking",
-        "title": "Premium Hotel Stays",
-        "description": "Verified luxury and budget hotels with best rates",
-        "icon": "Hotel",
-        "slug": "hotel-booking",
-        "image": "/images/uploads/glimpse-5.jpeg"
-    },
-    {
-        "id": "vintage-car-rentals",
-        "title": "Vintage Wedding Cars",
-        "description": "Classic cars for weddings, pre-wedding shoots & VIP entry",
-        "icon": "Gem",
-        "slug": "vintage-car-rentals",
-        "image": "/images/uploads/vintage-car.jpeg"
-    }
+  {
+    "id": "taxi-services",
+    "title": "Taxi Services",
+    "emoji": "🚖",
+    "description": "Local and outstation taxi for one-way and round trips. Airport and railway pickup/drop. AC and non-AC cars available.",
+    "icon": "Car",
+    "slug": "taxi-services",
+    "image": "/images/uploads/10004.png",
+    "featured": true,
+    "subItems": [
+      "Local & Outstation Taxi",
+      "One Way & Round Trip",
+      "Airport / Railway Pickup & Drop",
+      "AC / Non-AC Cars"
+    ]
+  },
+  {
+    "id": "tour-packages",
+    "title": "Tour Packages",
+    "emoji": "🧳",
+    "description": "Domestic tour packages, honeymoon getaways, family and group tours, and custom itineraries across Uttarakhand and beyond.",
+    "icon": "Map",
+    "slug": "tour-packages",
+    "image": "/images/uploads/002.jpeg",
+    "featured": true,
+    "subItems": [
+      "Domestic Tour Packages",
+      "Honeymoon Packages",
+      "Family & Group Tours",
+      "Custom Tour Packages"
+    ]
+  },
+  {
+    "id": "pilgrimage-tours",
+    "title": "Religious / Pilgrimage Tours",
+    "emoji": "🛕",
+    "description": "Char Dham Yatra, Vaishno Devi, Haridwar–Rishikesh, Mathura–Vrindavan and other sacred journeys with comfort and care.",
+    "icon": "Map",
+    "slug": "pilgrimage-tours",
+    "image": "/images/uploads/001.jpeg",
+    "subItems": [
+      "Char Dham Yatra",
+      "Vaishno Devi Tour",
+      "Haridwar – Rishikesh Tour",
+      "Mathura – Vrindavan Tour"
+    ]
+  },
+  {
+    "id": "hotel-booking",
+    "title": "Hotel Booking",
+    "emoji": "🏨",
+    "description": "Budget to luxury hotels, verified and clean properties, with best price guarantee across Uttarakhand.",
+    "icon": "Hotel",
+    "slug": "hotel-booking",
+    "image": "/images/uploads/003.jpeg",
+    "featured": true,
+    "subItems": [
+      "Budget to Luxury Hotels",
+      "Verified & Clean Hotels",
+      "Best Price Guarantee"
+    ]
+  },
+  {
+    "id": "corporate-travel",
+    "title": "Corporate Travel Services",
+    "emoji": "🏢",
+    "description": "Company tours, employee transport, and monthly contract basis for businesses and organizations.",
+    "icon": "Building2",
+    "slug": "corporate-travel",
+    "image": "/images/uploads/10001.png",
+    "subItems": [
+      "Company Tours",
+      "Employee Transport",
+      "Monthly Contract Basis"
+    ]
+  },
+  {
+    "id": "event-wedding-travel",
+    "title": "Event & Wedding Travel",
+    "emoji": "🎉",
+    "description": "Wedding guest transport, destination wedding travel, and event transport management. Vintage cars for pre-wedding shoots and VIP entry.",
+    "icon": "Gem",
+    "slug": "event-wedding-travel",
+    "image": "/images/uploads/vintagecar.jpeg",
+    "featured": true,
+    "subItems": [
+      "Wedding Guest Transport",
+      "Destination Wedding Travel",
+      "Event Transport Management"
+    ]
+  },
+  {
+    "id": "customer-support",
+    "title": "24x7 Customer Support",
+    "emoji": "🔄",
+    "description": "WhatsApp and call support round the clock. Emergency assistance whenever you need it.",
+    "icon": "Phone",
+    "slug": "customer-support",
+    "subItems": [
+      "WhatsApp & Call Support",
+      "Emergency Assistance"
+    ]
+  },
+  {
+    "id": "experienced-drivers",
+    "title": "Experienced Drivers",
+    "emoji": "🧍‍♂️",
+    "description": "Trained and verified drivers. On-time, professional, and safe service for every trip.",
+    "icon": "UserCheck",
+    "slug": "experienced-drivers",
+    "subItems": [
+      "Trained & Verified Drivers",
+      "On-Time & Professional Service"
+    ]
+  }
 ]

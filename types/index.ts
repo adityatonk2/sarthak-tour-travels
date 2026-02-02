@@ -5,6 +5,9 @@ export interface Service {
     icon: string;
     slug: string;
     image?: string;
+    emoji?: string;
+    subItems?: string[];
+    featured?: boolean;
 }
 
 export interface ItineraryDay {

@@ -1,11 +1,13 @@
 import { SectionHeading } from "@/components/ui/section-heading";
 import { CorporateCabCard } from "@/components/ui/corporate-cab-card";
+import { Section } from "@/components/ui/section";
+import { Container } from "@/components/ui/container";
 import corporateCabsData from "@/data/corporate-cabs.json";
 
 export function CorporateCabsSection() {
     return (
-        <section className="py-20 bg-gradient-to-b from-white to-slate-50">
-            <div className="container mx-auto px-4 md:px-6">
+        <Section className="bg-gradient-to-b from-white to-slate-50">
+            <Container>
                 <SectionHeading
                     title="Corporate Cab Services in Uttarakhand"
                     subtitle="Seamless and professional transportation for executives, ensuring punctuality, comfort, and reliability."
@@ -27,7 +29,7 @@ export function CorporateCabsSection() {
                         </div>
                         <div>
                             <h4 className="font-semibold text-slate-900">Transparent pricing & real-time booking support</h4>
-                            <p className="text-sm text-muted-foreground">No hidden charges</p>
+                            <p className="text-sm text-slate-600">No hidden charges</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-4 p-4 bg-white rounded-xl border shadow-sm">
@@ -38,7 +40,7 @@ export function CorporateCabsSection() {
                         </div>
                         <div>
                             <h4 className="font-semibold text-slate-900">Professionally maintained fleet</h4>
-                            <p className="text-sm text-muted-foreground">Regular safety checks</p>
+                            <p className="text-sm text-slate-600">Regular safety checks</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-4 p-4 bg-white rounded-xl border shadow-sm">
@@ -49,12 +51,12 @@ export function CorporateCabsSection() {
                         </div>
                         <div>
                             <h4 className="font-semibold text-slate-900">No hidden charges</h4>
-                            <p className="text-sm text-muted-foreground">Upfront pricing</p>
+                            <p className="text-sm text-slate-600">Upfront pricing</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </Container>
+        </Section>
     );
 }
 

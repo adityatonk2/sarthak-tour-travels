@@ -1,25 +1,28 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export function GalleryPreview() {
     const images = [
-        "/images/uploads/glimpse-1.jpeg",
-        "/images/uploads/glimpse-2.jpeg",
-        "/images/uploads/glimpse-3.jpeg",
-        "/images/uploads/glimpse-4.jpeg",
-        "/images/uploads/glimpse-5.jpeg",
-        "/images/uploads/glimpse-6.jpeg"
+        "/images/uploads/001.jpg",
+        "/images/uploads/002.jpeg",
+        "/images/uploads/003.jpg",
+        "/images/uploads/004.jpg",
+        "/images/uploads/005.jpg",
+        "/images/uploads/006.jpeg"
     ];
 
     return (
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {images.map((src, i) => (
-                <div key={i} className="rounded-lg overflow-hidden h-48 bg-gray-200 relative group cursor-pointer hover:opacity-90 transition-opacity">
-                    <img
+                <div key={i} className="rounded-xl overflow-hidden h-48 bg-gray-200 relative group cursor-pointer hover:opacity-90 transition-all duration-300 hover:shadow-xl">
+                    <Image
                         src={src}
                         alt={`Glimpse of Uttarakhand ${i + 1}`}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-110"
+                        sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
                     />
                 </div>
             ))}

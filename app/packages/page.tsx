@@ -4,8 +4,14 @@ import { Button } from "@/components/ui/button";
 import transportPackagesData from "@/data/transport-packages.json";
 import companyData from "@/data/company.json";
 import Link from "next/link";
-import { Phone, Car, MapPin, Clock } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import type { Metadata } from "next";
+
+const PACKAGES_HEADING_IMAGES = [
+    { src: "/images/uploads/premium-vehicles.png", alt: "Premium Vehicles" },
+    { src: "/images/uploads/24-7.png", alt: "24/7 Availability" },
+    { src: "/images/uploads/multiple-destinations.png", alt: "Multiple Destinations" },
+];
 
 export const metadata: Metadata = {
     title: "Transport Packages",
@@ -42,29 +48,18 @@ export default function PackagesPage() {
                     </p>
                 </div>
 
-                {/* Features */}
+                {/* Features - heading images */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-                    <div className="flex flex-col items-center text-center p-6 bg-primary/5 rounded-xl border border-primary/10">
-                        <div className="p-4 rounded-full bg-primary/10 text-primary mb-4">
-                            <Car className="h-8 w-8" />
+                    {PACKAGES_HEADING_IMAGES.map((img) => (
+                        <div key={img.alt} className="overflow-hidden rounded-xl border border-primary/10 bg-primary/5 shadow-md transition-shadow hover:shadow-lg">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                                src={img.src}
+                                alt={img.alt}
+                                className="w-full h-auto object-contain p-4"
+                            />
                         </div>
-                        <h3 className="font-bold text-lg mb-2">Premium Vehicles</h3>
-                        <p className="text-sm text-muted-foreground">Well-maintained and sanitized fleet</p>
-                    </div>
-                    <div className="flex flex-col items-center text-center p-6 bg-primary/5 rounded-xl border border-primary/10">
-                        <div className="p-4 rounded-full bg-primary/10 text-primary mb-4">
-                            <Clock className="h-8 w-8" />
-                        </div>
-                        <h3 className="font-bold text-lg mb-2">24/7 Availability</h3>
-                        <p className="text-sm text-muted-foreground">Round-the-clock service for your convenience</p>
-                    </div>
-                    <div className="flex flex-col items-center text-center p-6 bg-primary/5 rounded-xl border border-primary/10">
-                        <div className="p-4 rounded-full bg-primary/10 text-primary mb-4">
-                            <MapPin className="h-8 w-8" />
-                        </div>
-                        <h3 className="font-bold text-lg mb-2">Multiple Destinations</h3>
-                        <p className="text-sm text-muted-foreground">Delhi, Chandigarh, and Airport transfers</p>
-                    </div>
+                    ))}
                 </div>
 
                 {/* Packages by Destination */}

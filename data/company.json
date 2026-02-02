@@ -1,32 +1,32 @@
 {
-    "name": "Sarthak Travels & Holidays",
-    "tagline": "Sarthak Tour & Travels — Your Journey, Done Right",
-    "description": "Sarthak Travels & Holidays is a multi-service travel company offering reliable taxi services, exclusive tour packages, hotel bookings, and vintage car rentals in Uttarakhand. We pride ourselves on punctuality, safety, and customer satisfaction. Whether it's a Char Dham Yatra, a honeymoon trip to Mussoorie, or a vintage car for your wedding, we provide clean, safe, and comfortable travel experiences with complete transparency and 24×7 support.",
-    "contact": {
-        "phone": "+919389477123",
-        "email": "sarthakrana8989@gmail.com",
-        "address": "Dehradun, Uttarakhand, India"
+  "name": "Sarthak Travels & Holidays",
+  "tagline": "Sarthak Tour & Travels — Your Journey, Done Right",
+  "description": "Sarthak Travels & Holidays is a multi-service travel company offering reliable taxi services, exclusive tour packages, hotel bookings, and vintage car rentals in Uttarakhand. We pride ourselves on punctuality, safety, and customer satisfaction. Whether it's a Char Dham Yatra, a honeymoon trip to Mussoorie, or a vintage car for your wedding, we provide clean, safe, and comfortable travel experiences with complete transparency and 24×7 support.",
+  "contact": {
+    "phone": "+91 9389477123 | 955794773",
+    "email": "sarthakrana8989@gmail.com",
+    "address": "Dehradun, Uttarakhand, India"
+  },
+  "social": {
+    "facebook": "https://facebook.com",
+    "instagram": "https://instagram.com"
+  },
+  "usps": [
+    {
+      "title": "24x7 Availability",
+      "description": "Round-the-clock support for all your travel needs."
     },
-    "social": {
-        "facebook": "https://facebook.com",
-        "instagram": "https://instagram.com"
+    {
+      "title": "Verified Hotels",
+      "description": "We partner only with top-rated and safe hotels."
     },
-    "usps": [
-        {
-            "title": "24x7 Availability",
-            "description": "Round-the-clock support for all your travel needs."
-        },
-        {
-            "title": "Verified Hotels",
-            "description": "We partner only with top-rated and safe hotels."
-        },
-        {
-            "title": "Best Price Guarantee",
-            "description": "Competitive pricing with no hidden charges."
-        },
-        {
-            "title": "Sanitized Vehicles",
-            "description": "Regularly cleaned and maintained fleet."
-        }
-    ]
+    {
+      "title": "Best Price Guarantee",
+      "description": "Competitive pricing with no hidden charges."
+    },
+    {
+      "title": "Sanitized Vehicles",
+      "description": "Regularly cleaned and maintained fleet."
+    }
+  ]
 }

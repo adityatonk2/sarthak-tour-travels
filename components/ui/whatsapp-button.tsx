@@ -24,7 +24,8 @@ export function WhatsAppButton() {
     // Format message: replace spaces with %20
     const message = "Hi, I want to book a service. Please assist.";
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/${companyData.contact.phone}?text=${encodedMessage}`;
+    const phone = companyData.contact.phone.split("|")[0].trim().replace(/\D/g, "");
+    const whatsappUrl = `https://wa.me/${phone}?text=${encodedMessage}`;
 
     return (
         <AnimatePresence>

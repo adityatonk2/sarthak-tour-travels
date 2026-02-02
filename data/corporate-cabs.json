@@ -1,59 +1,42 @@
 [
-    {
-        "id": "ertiga",
-        "name": "Ertiga",
-        "location": "Local Uttarakhand",
-        "price": "₹1,500-2,500",
-        "priceUnit": "day/per day",
-        "image": "/images/uploads/taxi-front.jpeg",
-        "features": [
-            "Spacious for families",
-            "Comfortable seating",
-            "Reliable & timely service"
-        ],
-        "popular": true
-    },
-    {
-        "id": "innova",
-        "name": "Innova",
-        "location": "Local Uttarakhand",
-        "price": "₹4,000",
-        "priceUnit": "day/per day",
-        "image": "/images/uploads/taxi-front.jpg",
-        "features": [
-            "7-Seater luxury vehicle",
-            "Comfort & Style",
-            "Reliable & timely service"
-        ],
-        "popular": false
-    },
-    {
-        "id": "tempo-traveller",
-        "name": "Tempo Traveller (12 Seater)",
-        "location": "Local Uttarakhand",
-        "price": "₹6,500",
-        "priceUnit": "day/per day",
-        "image": "/images/uploads/taxis.jpeg",
-        "features": [
-            "Perfect for group travel",
-            "Spacious seating",
-            "Reliable & timely service"
-        ],
-        "popular": false
-    },
-    {
-        "id": "sedan",
-        "name": "Sedan",
-        "location": "Local",
-        "price": "₹1,000-1,800",
-        "priceUnit": "day/per day",
-        "image": "/images/uploads/taxid-single.jpeg",
-        "features": [
-            "Comfortable for 4 persons",
-            "Air-conditioned vehicle",
-            "Reliable & timely service"
-        ],
-        "popular": false
-    }
+  {
+    "id": "ertiga",
+    "name": "Ertiga",
+    "location": "Delhi Pickup and Drop",
+    "price": "₹6,500",
+    "priceUnit": "day/per day",
+    "image": "/images/uploads/10001.png",
+    "features": ["Spacious for families", "Comfortable seating", "Reliable & timely service"],
+    "popular": true
+  },
+  {
+    "id": "innova",
+    "name": "Innova",
+    "location": "Delhi Pickup and Drop",
+    "price": "₹7,000",
+    "priceUnit": "day/per day",
+    "image": "/images/uploads/10002.png",
+    "features": ["7-Seater luxury vehicle", "Comfort & Style", "Reliable & timely service"],
+    "popular": false
+  },
+  {
+    "id": "tempo-traveller",
+    "name": "Tempo Traveller (12 Seater)",
+    "location": "Uttarakhand Tourism Points",
+    "price": "₹12,000",
+    "priceUnit": "day/per day",
+    "image": "/images/uploads/10003.png",
+    "features": ["Perfect for group travel", "Spacious seating", "Reliable & timely service"],
+    "popular": false
+  },
+  {
+    "id": "sedan",
+    "name": "Sedan",
+    "location": "Local Per Day",
+    "price": "₹1800",
+    "priceUnit": "day/per day",
+    "image": "/images/uploads/10004.png",
+    "features": ["Comfortable for 4 persons", "Air-conditioned vehicle", "Reliable & timely service"],
+    "popular": false
+  }
 ]
-

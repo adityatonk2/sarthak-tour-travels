@@ -1,6 +1,7 @@
 "use client";
 
 import { SectionHeading } from "@/components/ui/section-heading";
+import { Container } from "@/components/ui/container";
 import companyData from "@/data/company.json";
 import { Mail, MapPin, Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -10,7 +11,7 @@ import Link from "next/link";
 export default function ContactPage() {
     return (
         <main className="flex-1 py-12 md:py-20">
-            <div className="container mx-auto px-4 md:px-6">
+            <Container className="py-12 md:py-16">
                 <SectionHeading title="Get in Touch" subtitle="We're here to help you plan your journey" />
 
                 <div className="grid lg:grid-cols-2 gap-12">
@@ -91,7 +92,7 @@ export default function ContactPage() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Container>
         </main>
     );
 }

@@ -1,4 +1,5 @@
 import { SectionHeading } from "@/components/ui/section-heading";
+import { Container } from "@/components/ui/container";
 import companyData from "@/data/company.json";
 import { CheckCircle } from "lucide-react";
 import Image from "next/image";
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="flex-1 py-12 md:py-20">
-      <div className="container mx-auto px-4 md:px-6">
+      <Container className="py-12 md:py-16">
         <SectionHeading title="About Sarthak Travels" subtitle="Our Journey & Mission" />
 
         <div className="grid gap-12 lg:grid-cols-2 items-center mb-20">
@@ -40,12 +41,12 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="relative h-[400px] rounded-2xl overflow-hidden bg-slate-100 border shadow-lg group">
+          <div className="relative h-[420px] lg:h-[480px] rounded-2xl overflow-hidden bg-slate-50 border shadow-lg group">
             <Image
-              src="/images/uploads/glimpse-6.jpeg"
-              alt="Sarthak Travels Team"
+              src="/images/uploads/about-section.png"
+              alt="Sarthak Tour & Travels - Your Journey, Our Commitment"
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              className="object-contain p-4 transition-transform duration-500 group-hover:scale-[1.02]"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
@@ -69,7 +70,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-      </div>
+      </Container>
     </main>
   );
 }

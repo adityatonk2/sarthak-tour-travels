@@ -6,6 +6,7 @@ import companyData from "@/data/company.json";
 interface TransportPackage {
     id: string;
     cabType: string;
+    image?: string;
     destination: string;
     amount: string;
     description: string;
@@ -20,7 +21,18 @@ export function TransportPackageCard({ package: pkg }: TransportPackageCardProps
     const whatsappUrl = `https://wa.me/${companyData.contact.phone}?text=${encodeURIComponent(whatsappMessage)}`;
 
     return (
-        <div className="group overflow-hidden rounded-xl border bg-white shadow-md transition-all hover:shadow-xl p-6">
+        <div className="group overflow-hidden rounded-xl border bg-white shadow-md transition-all hover:shadow-xl">
+            {pkg.image && (
+                <div className="relative w-full overflow-hidden bg-slate-100">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                        src={pkg.image}
+                        alt={pkg.cabType}
+                        className="w-full h-auto object-cover transition-transform group-hover:scale-105"
+                    />
+                </div>
+            )}
+            <div className="p-6">
             <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center gap-3">
                     <div className="p-3 rounded-lg bg-primary/10 text-primary">
@@ -49,6 +61,7 @@ export function TransportPackageCard({ package: pkg }: TransportPackageCardProps
                     Book on WhatsApp
                 </Link>
             </Button>
+            </div>
         </div>
     );
 }
